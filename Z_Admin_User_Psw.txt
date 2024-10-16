@@ -1,0 +1,15 @@
+
+
+
+
+username=admin
+password=psw
+email=admin@admin.com
+
+Command in git bash :
+                    docker-compose run --rm app sh -c "DJANGO_SUPERUSER_USERNAME=admin DJANGO_SUPERUSER_PASSWORD=psw \
+                    python manage.py createsuperuser --email=admin@admin.com --noinput"
+
+
+
+
