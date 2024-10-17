@@ -11,9 +11,6 @@ from user.serializers import (
     AuthTokenSerializer,
 )
 
-# Create your views here.
-
-
 
 class CreateUserView(generics.CreateAPIView):
     """Create a new user in the system."""
